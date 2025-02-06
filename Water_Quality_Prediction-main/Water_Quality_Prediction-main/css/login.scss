@@ -1,0 +1,56 @@
+@import 'variables';
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: $font-family;
+}
+
+.background {
+    background-image: url('../assets/images/image1.jpg');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: $border-radius;
+    width: $container-width;
+    text-align: center;
+    color: $text-color;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+        text-align: left;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: $input-padding;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+    button {
+        width: 100%;
+        padding: $button-padding;
+        border: none;
+        background-color: $primary-color;
+        color: $text-color;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

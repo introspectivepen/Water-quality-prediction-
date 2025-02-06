@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/images/image1.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+.register-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+}
+.register-container h2 {
+  margin-bottom: 20px;
+}
+.register-container .input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.register-container .input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.register-container .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.register-container button:hover {
+  background-color: #ee3900;
+}
+.register-container p a {
+  color: #ff5722;
+  text-decoration: none;
+}
+.register-container p a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=register.css.map */

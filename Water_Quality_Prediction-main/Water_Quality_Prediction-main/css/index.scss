@@ -1,0 +1,22 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    font-family: $font-family;
+}
+
+.heading {
+    margin-top: 25%;
+}
+
+button {
+    width: 15%;
+    padding: $button-padding;
+    border: none;
+    background-color: $primary-color;
+    color: $text-color;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: $border-radius;
+    margin-right: 10px;
+}
